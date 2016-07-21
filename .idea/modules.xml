@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/deps/base64url/base64url.iml" filepath="$PROJECT_DIR$/deps/base64url/base64url.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/bson/bson.iml" filepath="$PROJECT_DIR$/deps/bson/bson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/ecpool/ecpool.iml" filepath="$PROJECT_DIR$/deps/ecpool/ecpool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/ejwt/ejwt.iml" filepath="$PROJECT_DIR$/deps/ejwt/ejwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/ekaf/ekaf.iml" filepath="$PROJECT_DIR$/deps/ekaf/ekaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emqttd.iml" filepath="$PROJECT_DIR$/emqttd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_auth_http/emqttd_auth_http.iml" filepath="$PROJECT_DIR$/plugins/emqttd_auth_http/emqttd_auth_http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_dashboard/emqttd_dashboard.iml" filepath="$PROJECT_DIR$/plugins/emqttd_dashboard/emqttd_dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_plugin_jwt/emqttd_plugin_jwt.iml" filepath="$PROJECT_DIR$/plugins/emqttd_plugin_jwt/emqttd_plugin_jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_plugin_mongo/emqttd_plugin_mongo.iml" filepath="$PROJECT_DIR$/plugins/emqttd_plugin_mongo/emqttd_plugin_mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_plugin_mysql/emqttd_plugin_mysql.iml" filepath="$PROJECT_DIR$/plugins/emqttd_plugin_mysql/emqttd_plugin_mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_plugin_observer/emqttd_plugin_observer.iml" filepath="$PROJECT_DIR$/plugins/emqttd_plugin_observer/emqttd_plugin_observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_plugin_pgsql/emqttd_plugin_pgsql.iml" filepath="$PROJECT_DIR$/plugins/emqttd_plugin_pgsql/emqttd_plugin_pgsql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_plugin_redis/emqttd_plugin_redis.iml" filepath="$PROJECT_DIR$/plugins/emqttd_plugin_redis/emqttd_plugin_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_plugin_template/emqttd_plugin_template.iml" filepath="$PROJECT_DIR$/plugins/emqttd_plugin_template/emqttd_plugin_template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_recon/emqttd_recon.iml" filepath="$PROJECT_DIR$/plugins/emqttd_recon/emqttd_recon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_reloader/emqttd_reloader.iml" filepath="$PROJECT_DIR$/plugins/emqttd_reloader/emqttd_reloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/emqttd_stomp/emqttd_stomp.iml" filepath="$PROJECT_DIR$/plugins/emqttd_stomp/emqttd_stomp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/epgsql/epgsql.iml" filepath="$PROJECT_DIR$/deps/epgsql/epgsql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/eredis/eredis.iml" filepath="$PROJECT_DIR$/deps/eredis/eredis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/esockd/esockd.iml" filepath="$PROJECT_DIR$/deps/esockd/esockd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/gen_logger/gen_logger.iml" filepath="$PROJECT_DIR$/deps/gen_logger/gen_logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/goldrush/goldrush.iml" filepath="$PROJECT_DIR$/deps/goldrush/goldrush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/gproc/gproc.iml" filepath="$PROJECT_DIR$/deps/gproc/gproc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/mochiweb/demo/hello/hello_demo.iml" filepath="$PROJECT_DIR$/deps/mochiweb/demo/hello/hello_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/mochiweb/demo/https/https_demo.iml" filepath="$PROJECT_DIR$/deps/mochiweb/demo/https/https_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/jsx/jsx.iml" filepath="$PROJECT_DIR$/deps/jsx/jsx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/kafkamocker/kafkamocker.iml" filepath="$PROJECT_DIR$/deps/kafkamocker/kafkamocker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/mochiweb/demo/keepalive/keepalive.iml" filepath="$PROJECT_DIR$/deps/mochiweb/demo/keepalive/keepalive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/lager/lager.iml" filepath="$PROJECT_DIR$/deps/lager/lager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/mochiweb/mochiweb.iml" filepath="$PROJECT_DIR$/deps/mochiweb/mochiweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/mongodb/mongodb.iml" filepath="$PROJECT_DIR$/deps/mongodb/mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/msgpack/msgpack.iml" filepath="$PROJECT_DIR$/deps/msgpack/msgpack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/mysql/mysql.iml" filepath="$PROJECT_DIR$/deps/mysql/mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/pbkdf2/pbkdf2.iml" filepath="$PROJECT_DIR$/deps/pbkdf2/pbkdf2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/poolboy/poolboy.iml" filepath="$PROJECT_DIR$/deps/poolboy/poolboy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/ranch/ranch.iml" filepath="$PROJECT_DIR$/deps/ranch/ranch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/recon/recon.iml" filepath="$PROJECT_DIR$/deps/recon/recon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/mochiweb/demo/websocket/websocket_demo.iml" filepath="$PROJECT_DIR$/deps/mochiweb/demo/websocket/websocket_demo.iml" />
+    </modules>
+  </component>
+</project>

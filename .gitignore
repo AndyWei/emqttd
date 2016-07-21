@@ -1,3 +1,10 @@
+# OS files
+*.DS_Store
+
+# Data files
+*.rdb
+
+# Erlang files
 .eunit
 deps
 !deps/.placeholder
@@ -7,13 +14,17 @@ deps
 erl_crash.dump
 ebin
 !ebin/.placeholder
+
 rel/emqttd
 rel/emqttd*
+!rel/emqttd/etc/*
+!rel/sys.config
+
 .concrete/DEV_MODE
 .rebar
 test/ebin/*.beam
 .exrc
-plugins/*/ebin
+plugins/.DS_Store
 log/
 *.swp
 *.so
@@ -26,3 +37,49 @@ eunit.coverdata
 test/ct.cover.spec
 logs
 ct.coverdata
+
+# IntelliJ files
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/emacs.xml
+.idea/misc.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
