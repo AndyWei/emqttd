@@ -26,10 +26,17 @@ sudo yum install esl-erlang
 sudo yum install git
 ~~~
 
-# Install emqttd
+# Install, config and run emqttd
 ~~~
-cd /opt
-sudo git clone https://github.com/andywei/emqttd.git
+cd ~
+git clone https://github.com/andywei/emqttd.git
 cd emqttd
-sudo ./install.sh
+git checkout -b onlyu origin/onlyu
+vim rel/files/vm.args #for node name 
+make && make dist
+sudo rel/emqttd/bin/emqttd start
+sudo rel/emqttd/bin/emqttd_ctl plugins load emqttd_plugin_observer
+sudo rel/emqttd/bin/emqttd_ctl plugins load emqttd_plugin_jwt
 ~~~
+Note the last 4 lines must be run mannually, if run install.sh the emqttd can not be started 
+
