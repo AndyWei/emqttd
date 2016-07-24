@@ -55,18 +55,6 @@ on_message_publish(Message, _Env) ->
 
 %% Handlers
 %% @doc sink message to kafka
-sink(#mqtt_message{from = From, topic =Topic, payload = Payload, timestamp = Timestamp}) ->
-    Map = [
-        {sender, binary_to_integer(From)},
-        {topic, binary_to_integer(Topic)},
-        {ts, timestamp_to_ms(Timestamp)},
-        {msg, Payload}
-    ],
-    Value = msgpack:pack(Map, [{map_format, jsx}]),
-    Key = Topic,
-    ok = ekaf:publish(?KAFKA_TOPIC, {Key, Value}),
+sink(#mqtt_message{payload = Payload}) ->
+    ok = ekaf:publish(?KAFKA_TOPIC, Payload),
     ok.
-
-%% @doc timestamp to Epoch time converter
-timestamp_to_ms({Mega, Sec, Micro}) ->
-    (Mega*1000000 + Sec)*1000 + round(Micro/1000).

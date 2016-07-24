@@ -39,7 +39,4 @@ start_ekaf() ->
     {ok, PartitionStrategy} = application:get_env(emqttd_plugin_observer, ekaf_partition_strategy),
     application:set_env(ekaf, ekaf_partition_strategy, PartitionStrategy),
 
-    {ok, PartitionPicker} = application:get_env(emqttd_plugin_observer, ekaf_callback_custom_partition_picker),
-    application:set_env(ekaf, ekaf_callback_custom_partition_picker, PartitionPicker),
-
     ekaf:start().
